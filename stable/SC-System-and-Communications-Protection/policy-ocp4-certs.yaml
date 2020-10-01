@@ -57,7 +57,7 @@ spec:
           - openshift-monitoring
           - openshift-multus
         remediationAction: inform
-        minimumDuration: 400h
+        minimumDuration: 720h
         minimumCADuration: 400h
 ---
 apiVersion: policy.open-cluster-management.io/v1
