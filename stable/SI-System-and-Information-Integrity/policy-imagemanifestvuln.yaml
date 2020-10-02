@@ -3,9 +3,9 @@ kind: Policy
 metadata:
   name: policy-imagemanifestvuln
   annotations:
-    policy.open-cluster-management.io/standards: NIST SP 800-53
-    policy.open-cluster-management.io/categories: SI System and Information Integrity
-    policy.open-cluster-management.io/controls: SI-4 Information System Monitoring
+    policy.open-cluster-management.io/standards: NIST SP 800-53, PCI
+    policy.open-cluster-management.io/categories: SI System and Information Integrity, PCIControlCategory4
+    policy.open-cluster-management.io/controls: SI-4 Information System Monitoring, Secure Systems and Applications
 spec:
   remediationAction: enforce
   disabled: false
