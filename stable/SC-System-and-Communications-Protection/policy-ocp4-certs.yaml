@@ -4,9 +4,9 @@ kind: Policy
 metadata:
   name: policy-cert-ocp4
   annotations:
-    policy.open-cluster-management.io/standards: NIST-CSF
-    policy.open-cluster-management.io/categories: PR.DS Data Security
-    policy.open-cluster-management.io/controls: PR.DS-2 Data-in-transit
+    policy.open-cluster-management.io/standards: NIST-CSF, PCI
+    policy.open-cluster-management.io/categories: PR.DS Data Security, PCIControlCategory4
+    policy.open-cluster-management.io/controls: PR.DS-2 Data-in-transit, Encrypt Transmission
 spec:
   remediationAction: inform
   disabled: false
